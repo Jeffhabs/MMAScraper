@@ -4,7 +4,7 @@
   "description": "Scrap some data from mmadecisions",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "babel-node src/selenium.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/Jeffhabs/MMAScraper#readme",
   "dependencies": {
+    "babel-preset-env": "^1.7.0",
+    "chromedriver": "^85.0.1",
     "selenium-webdriver": "^4.0.0-alpha.7"
   }
 }
